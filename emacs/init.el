@@ -14,6 +14,3 @@
 (add-to-list 'el-get-recipe-path "~/.emacs.d/el-get-user/recipes")
 (el-get 'sync)
 
-;set up ob-go
-(add-to-list 'load-path "~/.emacs.d/ob-go")
-(require 'ob-go)
