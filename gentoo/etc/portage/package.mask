@@ -1,0 +1,8 @@
+# rc segfault in 0.20.2
+#>=sys-apps/openrc-0.20
+
+# rime broke in 0.5.2
+#>=dev-cpp/yaml-cpp-0.5.2
+
+# ntfs partitions are mounted read only
+#>=sys-fs/ntfs3g-2016
