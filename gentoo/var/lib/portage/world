@@ -19,6 +19,7 @@ media-fonts/arphicfonts
 media-fonts/wqy-bitmapfont
 media-fonts/wqy-unibit
 media-fonts/wqy-zenhei
+media-gfx/graphviz
 media-gfx/imagemagick
 media-libs/mesa
 media-sound/alsa-utils

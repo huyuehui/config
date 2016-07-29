@@ -6,3 +6,6 @@
 
 # ntfs partitions are mounted read only
 #>=sys-fs/ntfs3g-2016
+
+# librime broke with opencc-1.0.4
+#>=app-i18n/opencc-1.0

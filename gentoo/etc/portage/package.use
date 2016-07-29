@@ -28,3 +28,5 @@
 >=media-gfx/imagemagick-6.8 jpeg png tiff fontconfig truetype
 #java
 #>=dev-java/icedtea-bin-7 -cups
+#graphviz
+>=media-libs/gd-2.2.2 fontconfig truetype png jpeg
