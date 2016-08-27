@@ -30,3 +30,11 @@
 #>=dev-java/icedtea-bin-7 -cups
 #graphviz
 >=media-libs/gd-2.2.2 fontconfig truetype png jpeg
+# required by dev-scheme/guile-2.0.12::gentoo
+# required by sys-devel/autogen-5.18.4::gentoo
+# required by net-libs/gnutls-3.4.14::gentoo[tools]
+# required by net-print/cups-2.1.4::gentoo[ssl]
+# required by www-client/google-chrome-52.0.2743.116::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/boehm-gc-7.4.2 threads
