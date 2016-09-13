@@ -8,7 +8,7 @@ mkdir -p kernel
 cp -p /usr/src/linux/.config $CONFIG_HOME/kernel/
 mkdir -p emacs/el-get-init-files
 cp -p ~/.emacs.d/init.el $CONFIG_HOME/emacs/
-rsync -av ~/.emacs.d/el-get/el-get-init-files/ $CONFIG_HOME/emacs/el-get-init-files/
+rsync -av --exclude='*.elc' ~/.emacs.d/el-get/el-get-init-files/ $CONFIG_HOME/emacs/el-get-init-files/
 mkdir -p fvwm
 cp -p -r ~/.fvwm/* $CONFIG_HOME/fvwm/
 mkdir -p $CONFIG_HOME/gentoo/etc/portage
