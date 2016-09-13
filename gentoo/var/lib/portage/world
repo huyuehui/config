@@ -4,6 +4,7 @@ app-arch/p7zip
 app-editors/emacs
 app-editors/nano
 app-editors/vim
+app-editors/visual-studio-code
 app-i18n/ibus-rime
 app-portage/gentoolkit
 app-text/po4a

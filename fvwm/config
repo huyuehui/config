@@ -108,10 +108,9 @@ AddToMenu MenuFvwmRoot  "$[gt.Root Menu]"             Title
 DestroyMenu MenuFvwmUtilities
 AddToMenu MenuFvwmUtilities     "$[gt.Utilities]" Title
 +                       "&T. Top"       Exec exec xterm -T Top -n Top -e top
-+                       "&C. Calculator" Exec exec xcalc
 +                       "&M. Chrome"      Exec exec google-chrome-stable
 +                       "&G. Xmag"      Exec exec xmag
-+                       "&R. Editres"   Exec exec editres
++                       "&C. Code"   	Exec exec visual-studio-code
 +                       ""              Nop
 +                       "&E. Emacs"	Exec exec emacs
 +                       "&A. Xmh Mail"  FuncFvwmMailXmh xmh "-font fixed"
