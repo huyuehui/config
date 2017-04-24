@@ -108,7 +108,7 @@ AddToMenu MenuFvwmRoot  "$[gt.Root Menu]"             Title
 DestroyMenu MenuFvwmUtilities
 AddToMenu MenuFvwmUtilities     "$[gt.Utilities]" Title
 +                       "&T. Top"       Exec exec xterm -T Top -n Top -e top
-+                       "&M. Chrome"      Exec exec google-chrome-stable
++                       "&M. Chrome"	Exec exec google-chrome-stable
 +                       "&G. Xmag"      Exec exec xmag
 +                       "&C. Code"   	Exec exec visual-studio-code
 +                       ""              Nop

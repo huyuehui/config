@@ -38,3 +38,20 @@
 # required by @selected
 # required by @world (argument)
 >=dev-libs/boehm-gc-7.4.2 threads
+
+# required by x11-base/xorg-drivers-1.19::gentoo[video_cards_i965]
+>=x11-base/xorg-server-1.19.1 glamor
+
+# To run fstrim periodically
+sys-process/cronie anacron
+
+## Defined in Gentoo's desktop profile, missing in no-multilib.
+# required by x11-misc/xdg-utils-1.1.1-r1:0/0::gentoo
+app-text/xmlto text
+
+# Ilya Tumaykin <itumaykin+gentoo@gmail.com> (02 Feb 2017)
+# Enable luajit for OSC and youtube-dl support by default.
+# Override default +sdl from desktop profile and disable sdl outputs.
+# These outputs are for systems without a proper audio/video support.
+media-video/mpv lua luajit -sdl
+

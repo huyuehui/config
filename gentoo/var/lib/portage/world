@@ -14,7 +14,6 @@ dev-java/oracle-jdk-bin
 dev-lang/go
 dev-libs/nss
 dev-perl/Locale-gettext
-dev-python/pyopenssl
 dev-vcs/git
 media-fonts/arphicfonts
 media-fonts/wqy-bitmapfont
@@ -28,6 +27,7 @@ media-video/mpv
 net-fs/nfs-utils
 net-misc/dhcpcd
 net-misc/netifrc
+net-misc/youtube-dl
 net-p2p/transmission
 sys-apps/lm_sensors
 sys-apps/pciutils
@@ -37,6 +37,7 @@ sys-boot/efibootmgr
 sys-devel/gettext
 sys-fs/ntfs3g
 sys-kernel/gentoo-sources
+sys-process/cronie
 www-client/google-chrome
 x11-apps/xclock
 x11-apps/xlsfonts

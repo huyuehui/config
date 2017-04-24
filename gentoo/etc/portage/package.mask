@@ -10,5 +10,8 @@
 # librime broke with opencc-1.0.4
 #>=app-i18n/opencc-1.0
 
+# compile failed
+=app-i18n/ibus-1.5.15
+
 ##Overlay
 */*::jorgicio
