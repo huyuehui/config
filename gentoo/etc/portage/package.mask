@@ -10,8 +10,11 @@
 # librime broke with opencc-1.0.4
 #>=app-i18n/opencc-1.0
 
-# compile failed
-=app-i18n/ibus-1.5.15
+# curl configure fail
+#=net-misc/curl-7.55.1
+
+# xorg-xserver "/dev/tty0 (Permission denied)"
+=x11-base/xorg-server-1.19.99.901
 
 ##Overlay
 */*::jorgicio

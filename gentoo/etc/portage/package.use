@@ -19,6 +19,9 @@
 #google-chrome
 >=app-text/ghostscript-gpl-9.14 cups
 
+#ibus
+>=app-i18n/ibus-1.5.16 -emoji -gtk2
+
 #dhcpcd: disable ipv6
 #>=net-misc/dhcpcd-6.4.3 -ipv6
 #tesseract
@@ -30,6 +33,10 @@
 #>=dev-java/icedtea-bin-7 -cups
 #graphviz
 >=media-libs/gd-2.2.2 fontconfig truetype png jpeg
+
+#for transmission-daemon
+>=net-misc/curl-7.58.0 -curl_ssl_openssl curl_ssl_gnutls
+
 # required by dev-scheme/guile-2.0.12::gentoo
 # required by sys-devel/autogen-5.18.4::gentoo
 # required by net-libs/gnutls-3.4.14::gentoo[tools]
@@ -44,6 +51,21 @@
 
 # To run fstrim periodically
 sys-process/cronie anacron
+
+## visual-studio-code-1.16 19/09/2017 ##
+# required by gnome-base/gnome-keyring-3.20.1::gentoo
+# required by app-crypt/libsecret-0.18.5::gentoo
+# required by app-editors/visual-studio-code-1.16.1::jorgicio
+# required by @selected
+# required by @world (argument)
+>=app-crypt/pinentry-1.0.0 gnome-keyring
+# required by gnome-base/gnome-keyring-3.20.1::gentoo
+# required by app-crypt/libsecret-0.18.5::gentoo
+# required by app-editors/visual-studio-code-1.16.1::jorgicio
+# required by @selected
+# required by @world (argument)
+>=app-crypt/gcr-3.20.0 gtk
+
 
 ## Defined in Gentoo's desktop profile, missing in no-multilib.
 # required by x11-misc/xdg-utils-1.1.1-r1:0/0::gentoo
