@@ -14,7 +14,13 @@
 #=net-misc/curl-7.55.1
 
 # xorg-xserver "/dev/tty0 (Permission denied)"
-=x11-base/xorg-server-1.19.99.901
+#=x11-base/xorg-server-1.20.3
+
+# openssl-1.0.2p, patch failed
+=dev-libs/openssl-1.0.2p
+
+# gcc-8.2.0-r2, bootstrap comparison failure
+#=sys-devel/gcc-8.2.0-r2
 
 ##Overlay
 */*::jorgicio
