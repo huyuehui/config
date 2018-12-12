@@ -15,4 +15,6 @@ mkdir -p $CONFIG_HOME/gentoo/etc/portage
 rsync -av /etc/portage/ $CONFIG_HOME/gentoo/etc/portage/
 mkdir -p $CONFIG_HOME/gentoo/var/lib/portage
 cp -p /var/lib/portage/world $CONFIG_HOME/gentoo/var/lib/portage/
+mkdir -p $CONFIG_HOME/gentoo/home
+cp ~/.asoundrc $CONFIG_HOME/gentoo/home/asoundrc
 echo "Backup Done!"
